@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://Dream4873.github.io/T-shirtProject/manifests/T-shirt.json",
+  "@type" : "sc:Manifest",
+  "label" : "T-shirt",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "White T-shirt",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Nooshin",
+  "sequences" : [ {
+    "@id" : "http://955f5d74-253d-4699-a599-214f1c73b042",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b5795f63-ee8d-41c8-8cdd-04e7f178ba9b",
+      "@type" : "sc:Canvas",
+      "label" : "White T-shirt ",
+      "height" : 820,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://a769fcfd-c47c-466c-969f-e205b84f2be5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://dream4873.github.io/T-shirtProject/images/T-shirt/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://dream4873.github.io/T-shirtProject/images/T-shirt",
+            "profile" : "http://iiif.io/api/image/2/level0.json"
+          },
+          "height" : 820,
+          "width" : 1024
+        },
+        "on" : "http://b5795f63-ee8d-41c8-8cdd-04e7f178ba9b"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
